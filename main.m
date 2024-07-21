@@ -9,9 +9,7 @@
  * @param argv An array of C-style strings containing the command-line arguments.
  * @return The exit status of the application.
  */
-
 #import <Foundation/Foundation.h>
-// #import "CodeSigningHelper.h"
 
 char * service_name = "com.apple.CodeSigningHelper";
 

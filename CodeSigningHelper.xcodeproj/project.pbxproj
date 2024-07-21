@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50A86D972C4D094700028471 /* CodeSigningHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A86D962C4D094700028471 /* CodeSigningHelper.m */; };
 		50A86D9A2C4D094700028471 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A86D992C4D094700028471 /* main.m */; };
+		50A86DA32C4D09D300028471 /* main_tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A86DA22C4D09D300028471 /* main_tests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		50A86D922C4D094700028471 /* CodeSigningHelper.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = CodeSigningHelper.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A86D952C4D094700028471 /* CodeSigningHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeSigningHelper.h; sourceTree = "<group>"; };
-		50A86D962C4D094700028471 /* CodeSigningHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeSigningHelper.m; sourceTree = "<group>"; };
 		50A86D982C4D094700028471 /* CodeSigningHelperProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeSigningHelperProtocol.h; sourceTree = "<group>"; };
 		50A86D992C4D094700028471 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		50A86D9B2C4D094700028471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50A86D9C2C4D094700028471 /* CodeSigningHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CodeSigningHelper.entitlements; sourceTree = "<group>"; };
+		50A86DA22C4D09D300028471 /* main_tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main_tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				50A86D952C4D094700028471 /* CodeSigningHelper.h */,
-				50A86D962C4D094700028471 /* CodeSigningHelper.m */,
+				50A86DA22C4D09D300028471 /* main_tests.m */,
 				50A86D982C4D094700028471 /* CodeSigningHelperProtocol.h */,
 				50A86D992C4D094700028471 /* main.m */,
 				50A86D9B2C4D094700028471 /* Info.plist */,
@@ -128,8 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50A86DA32C4D09D300028471 /* main_tests.m in Sources */,
 				50A86D9A2C4D094700028471 /* main.m in Sources */,
-				50A86D972C4D094700028471 /* CodeSigningHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
